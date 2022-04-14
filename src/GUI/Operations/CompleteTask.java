@@ -1,6 +1,4 @@
 package GUI.Operations;
-
-import GUI.JobPanel;
 import GUI.TaskPanel;
 
 import javax.swing.*;

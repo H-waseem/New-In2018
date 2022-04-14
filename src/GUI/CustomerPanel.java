@@ -1,6 +1,5 @@
 package GUI;
 
-//import GUI.Actions.*;
 
 import GUI.Operations.CreateCustomer;
 import GUI.Operations.DeleteCustomer;

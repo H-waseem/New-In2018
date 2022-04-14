@@ -1,7 +1,5 @@
 package GUI;
 
-//import GUI.Actions.*;
-
 import GUI.Operations.CreateUser;
 import GUI.Operations.DeleteUser;
 import GUI.Operations.EditUser;

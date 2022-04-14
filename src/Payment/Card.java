@@ -1,7 +1,5 @@
-
 package Payment;
 
-//import GUI.Actions.*;
 
 import javax.swing.*;
 import java.awt.*;

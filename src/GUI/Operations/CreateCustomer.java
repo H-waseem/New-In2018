@@ -1,6 +1,5 @@
 package GUI.Operations;
 
-import Database.SQL;
 import GUI.CustomerPanel;
 
 import javax.swing.*;

@@ -1,7 +1,5 @@
 package GUI;
 
-//import GUI.Actions.*;
-
 import GUI.Operations.ChangeJob;
 import GUI.Operations.ChooseJob;
 import GUI.Operations.UsedParts;

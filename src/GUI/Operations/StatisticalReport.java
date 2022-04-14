@@ -1,4 +1,4 @@
-package GUI.Actions;
+package GUI.Operations;
 
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfPCell;

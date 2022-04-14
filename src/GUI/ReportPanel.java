@@ -1,5 +1,4 @@
 package GUI;
-import GUI.Operations.*;
 
 import java.awt.Font;
 import java.awt.Image;
@@ -78,10 +77,10 @@ public class ReportPanel extends JFrame implements ActionListener {
            new LogInPanel().setVisible(true);
         }
 		if (e.getSource() == stockLevelButton){
-            new GUI.Actions.StockLevelReport();
+            new GUI.Operations.StockLevelReport();
 		}
         if (e.getSource() == statisticalButton){
-            new GUI.Actions.StatisticalReport();
+            new GUI.Operations.StatisticalReport();
         }
     }
 }
