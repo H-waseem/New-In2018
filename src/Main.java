@@ -1,4 +1,6 @@
+import GUI.LogInPanel;
 import GUI.ReportPanel;
+import GUI.TestPanel;
 import Payment.CalculateInvoice;
 
 import java.io.IOException;
@@ -48,21 +50,20 @@ public class Main {
         //tp.setVisible(true);
 
         //Checked
-        //new LogInPanel().setVisible(true);
+        new LogInPanel().setVisible(true);
 
-        ////ADMIN: SYSDBA, Masterkey
-        ////RECEPTIONIST: Penelope, PinkMobile
-        ////FOREMAN: Sunny, Attitude
-        ////MECHANIC: Gavin, LondonWeight
+        //ADMIN: SYSDBA, Masterkey
+        //RECEPTIONIST: Penelope, PinkMobile
+        //FOREMAN: Sunny, Attitude
+        //MECHANIC: Gavin, LondonWeight
 
         //Checked
         //Doesnt work but code seems like it works just need default configuration for printer
         //new PrintDocument().print();
 
         //Checked automatically (Trigger?)
-        //Reminder remind = new Reminder();
+        //GUI.Reminder remind = new GUI.Reminder();
         //remind.MotReminder();
-
 
         //Checked ???
         //new CalculateInvoice().setVisible(true);
@@ -84,19 +85,10 @@ public class Main {
         //ReportPanel rp = new ReportPanel();
         //rp.setVisible(true);
 
-        //127.0.0.1:3306
 
-        //WORKS
-        //ProcessBuilder pb = new ProcessBuilder("cmd.exe", "/c", "cd C:\\XAMPP\\mysql\\bin&&mysqldump -u root -h 127.0.0.1 garatis > 13Test.sql");
-        //pb.start().waitFor();
+        //TEST EVERY PANEL
+        //new TestPanel();
 
-        //ProcessBuilder pb2 = new ProcessBuilder("cmd.exe", "/c", "cd C:\\XAMPP\\mysql\\bin&&mysql -u root -h 127.0.0.1 test1 < 13Test.sql");
-        //pb2.start().waitFor();
-
-        //BackupDB.Backupdb();
-        //RestoreDB.RestoreDB();
-
-        //mysql --user root --password mysql < all-databases.sql
 
 
     }

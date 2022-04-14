@@ -147,17 +147,21 @@ public class LogInPanel extends JFrame implements ActionListener {
                         new AdminPanel().setVisible(true);
                     }
                     if(rs.getString(1).equals("Receptionist")){
+                        new CustomerPanel().setVisible(true);
                         new VehiclePanel().setVisible(true);
                     }
                     if(rs.getString(1).equals("Foreman")){
                         new CustomerPanel().setVisible(true);
+                        new VehiclePanel().setVisible(true);
+                        new TaskPanel().setVisible(true);
                     }
                     if(rs.getString(1).equals("Franchisee")){
-                        new TaskPanel().setVisible(true);
                         new CustomerPanel().setVisible(true);
                     }
                     if(rs.getString(1).equals("Mechanic")){
                         new JobPanel().setVisible(true);
+                        new TaskPanel().setVisible(true);
+                        new VehiclePanel().setVisible(true);
                     }
 
                 } else {
